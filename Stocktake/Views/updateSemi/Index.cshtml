@@ -1,0 +1,21 @@
+﻿
+<div class="row">
+    <div class="window" style="margin-top:70px;">
+        <div class="window-content" style="margin-top:20px;background-color:lightgray;padding:20px;">
+            <form class="form-inline">
+                <button id="btnUpdate" type="button" class="btn btn-primary">Update</button>
+            </form>
+            <br />
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnUpdate").click(function () {
+                updateSemi("26/06/2023");
+            });
+        });
+    </script>
+}
